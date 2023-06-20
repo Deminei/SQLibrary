@@ -5,7 +5,7 @@ public class DatabaseConnector {
     public Connection connect(){
         Connection connection = null;
         try {
-            String url = "jdbc:sqlite:C:/Program Files/SQLiteStudio/Bookstore/";
+            String url = "jdbc:sqlite:C:/Program Files/SQLiteStudio/Bookstore";
 
             connection = DriverManager.getConnection(url);
             System.out.println("Successfully connected to the database!");
